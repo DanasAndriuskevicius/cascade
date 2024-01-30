@@ -34,10 +34,14 @@ public void run(String... args)throws Exception{
 public void metodas() {
 
     Studentas andrius = new Studentas("Andrius");
+    sr.save(andrius);
     Studentas jadvyga = new Studentas("Jadvyga");
+    sr.save(jadvyga);
     Studentas kestas = new Studentas("Kestas");
+    sr.save(kestas);
 
     Destytojas bagdonas = new Destytojas("Bgdonas");
+    dr.save(bagdonas);
     Destytojas tvarijonas = new Destytojas("Tvarijonas");
     Destytojas vytautas = new Destytojas("Vytautas");
 

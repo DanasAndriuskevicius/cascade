@@ -23,6 +23,12 @@ import java.util.Set;
         this.name = name;
     }
 
+    public Studentas(Long id, String name, Set<Kursas> kursai) {
+        this.id = id;
+        this.name = name;
+        this.kursai = kursai;
+    }
+
     public Long getId() {
         return id;
     }
